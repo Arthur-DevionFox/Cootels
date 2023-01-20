@@ -1,0 +1,8 @@
+.header__list_element-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.header__list_element-margin:nth-child(2n+2) {
+    margin: 0 36px 0 36px;
+}

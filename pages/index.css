@@ -1,0 +1,37 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/Inter/stylesheet.css);
+@import url(../fonts/Montserrat/montserrat.css);
+
+/*header block*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list/_element-margin/header__list_element-margin.css);
+@import url(../blocks/header/__list/_element/header__list_element.css);
+@import url(../blocks/header/__get-started/header__get-started.css);
+
+/*hero section*/
+@import url(../blocks/main/hero/hero.css);
+@import url(../blocks/main/hero/__information/hero__information.css);
+@import url(../blocks/main/hero/__header/hero__header.css);
+@import url(../blocks/main/hero/__main/hero__main.css);
+@import url(../blocks/main/hero/__reservation/hero__reservation.css);
+@import url(../blocks/main/hero/__home/hero__home.css);
+@import url(../blocks/main/hero/__home/_wing/hero__home_wing.css);
+
+/*about-us section*/
+@import url(../blocks/main/about-us/about-us.css);
+@import url(../blocks/main/);
+@import url(../blocks/main/);
+@import url(../blocks/main/);
+@import url(../blocks/main/);
+@import url(../blocks/main/);
+
+/*benefit section*/
+@import url(../blocks/main/benefit/benefit.css);
+
+/*reservation section*/
+@import url(../blocks/main/reservation/reservation.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);

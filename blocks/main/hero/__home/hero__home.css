@@ -1,0 +1,5 @@
+.hero__home {
+    max-width: 588px;
+    max-height: 669px;
+    display: flex;
+}
