@@ -1,0 +1,10 @@
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    max-width: 107px;
+    width: 100%;
+}
+
+.footer__links:nth-child(2) {
+    margin: 0 141px 0 100px
+}

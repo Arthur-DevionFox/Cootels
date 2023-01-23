@@ -1,0 +1,3 @@
+.footer__logo:nth-child(2n+2) {
+    margin: 0 24px 0 24px;
+}

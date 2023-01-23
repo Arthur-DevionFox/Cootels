@@ -1,0 +1,7 @@
+.reservation__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    justify-content: center;
+    gap: 24px;
+    margin-top: 88px;
+}

@@ -1,0 +1,11 @@
+.footer__link {
+    margin-top: 24px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #D9DBDE;
+    text-decoration: none;
+}

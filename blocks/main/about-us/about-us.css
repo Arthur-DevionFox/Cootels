@@ -1,4 +1,6 @@
 .about-us {
     margin: 0;
-    padding: 273px 120px 0 120px;
+    padding: 176px 120px 0 120px;
+    display: flex;
+    justify-content: center;
 }

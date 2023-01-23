@@ -1,9 +1,9 @@
-.about-us__header {
-    margin: 0;
+.reservation__card-header {
+    margin: 32px 0 0;
     padding: 0;
     font-family: MontserratThin, sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 24px;
     line-height: 1.5;
     letter-spacing: -0.01em;
 }

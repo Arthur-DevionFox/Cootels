@@ -1,0 +1,13 @@
+.about-us__main {
+    margin: 24px 0 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #848FAC;
+}
+
+.about-us__main:nth-child(2n + 1) {
+    margin: 16px 0 0;
+}

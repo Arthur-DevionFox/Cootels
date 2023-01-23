@@ -11,9 +11,9 @@
     <header class="header">
         <picture><img src="images/Cootels.svg" class="header__logo" alt="Cootels"></picture>
         <ul class="header__list">
-            <li class="header__list_element-margin"><a class="header__list_element" href="#">Rooms</a></li>
-            <li class="header__list_element-margin"><a class="header__list_element" href="#">Reservation</a></li>
-            <li class="header__list_element-margin"><a class="header__list_element" href="#">Contacts</a></li>
+            <li class="header__list header__list_element-margin"><a class="header__list header__list_element" href="#">Rooms</a></li>
+            <li class="header__list header__list_element-margin"><a class="header__list header__list_element" href="#">Reservation</a></li>
+            <li class="header__list header__list_element-margin"><a class="header__list header__list_element" href="#">Contacts</a></li>
         </ul>
         <button class="header__get-started">Get Started</button>
     </header>
@@ -37,7 +37,7 @@
         <section class="about-us">
             <picture><img class="about-us__cootage" src="./images/image%2013.png" alt="house"></picture>
             <div class="about-us__information">
-                <h1 class="about-us__header">Cozy and Down to Earth Cootage Hotel in Norway.</h1>
+                <h2 class="about-us__header">Cozy and Down to Earth Cootage Hotel in Norway.</h2>
                 <p class="about-us__main">Our Cootage Hotel is an intimate hideway concieved for dicerning travelers.
                     It faces directly the unique and spectacular panorama of the Hallerbos Jungle.</p>
                 <p class="about-us__main">Cootels extends along a private, quiet, and beautiful nature.
@@ -47,16 +47,83 @@
         </section>
         <!--Benefit-->
         <section class="benefit">
-
+            <div class="benefit__information benefit__information_one">
+                <h2 class="benefit__header">Cabin Activities</h2>
+                <p class="benefit__main">Don’t worry to get bored easily in our cabin. We have so many cabin activities for you to do it alone
+                    or with group. Maybe this is the best chance for you to make new friends or even a lover.</p>
+            </div>
+            <picture class="benefit__glasses"><img  src="./images/image%2021.png" alt=""></picture>
+            <picture class="benefit__food"><img src="./images/image%2018.png" alt=""></picture>
+            <div class="benefit__information benefit__information_two">
+                <h2 class="benefit__header">100% Organic Food</h2>
+                <p class="benefit__main">We served 100% organic, low process and delicious food. We allow our guest to have breakfast or
+                    dinner request.What ever made your taste buds happy.</p>
+            </div>
         </section>
         <!--Reservation-->
         <section class="reservation">
-
+            <div class="reservation__choose">
+                <h2 class="reservation__header">Many Rooms to Choose</h2>
+                <p class="reservation__main">There is a room for every needs. We have room for individuals until family
+                    size, we also have a cabin for more private experience</p>
+                <button class="reservation__explore">Explore more</button>
+            </div>
+            <div class="reservation__cards">
+                <div class="reservation__card">
+                    <picture class="reservation__picture"><img src="./images/image%2011.png" alt=""></picture>
+                    <h3 class="reservation__card-header">Single Room</h3>
+                    <p class="reservation__card-main">Best for a brave lone wolf who need comfort and quiet quality
+                        time, but you still have a chance to meet others.</p>
+                    <a class="reservation__card-link" href="#">Learn more <img class="reservation__arrow" src="images/Arrow_Right.svg" alt="arrow"></a>
+                </div>
+                <div class="reservation__card">
+                    <picture class="reservation__picture"><img src="./images/image%2010.png" alt=""></picture>
+                    <h3 class="reservation__card-header">Double Room</h3>
+                    <p class="reservation__card-main">Best for couple, seek happiness in intimacy without worry of being
+                        disturbed. Feel the whole world just for you two</p>
+                    <a class="reservation__card-link" href="#">Learn more <img class="reservation__arrow" src="images/Arrow_Right.svg" alt="arrow"></a>
+                </div>
+                <div class="reservation__card">
+                    <picture class="reservation__picture"><img  src="./images/image%2012.png" alt="house"></picture>
+                    <h3 class="reservation__card-header">Cootage</h3>
+                    <p class="reservation__card-main">Best for family or group. One cootage can fit up to 5 people.
+                        Made stronger bond with your family or friends</p>
+                    <a class="reservation__card-link" href="#">Learn more <img class="reservation__arrow" src="images/Arrow_Right.svg" alt="arrow"></a>
+                </div>
+            </div>
         </section>
     </main>
 <!--footer-->
     <footer class="footer">
-
+        <div class="footer__information">
+            <h4 class="footer__cootels">Cootels</h4>
+            <p class="footer__name">Your Best Private Hideway From Crowd. Back to Nature.</p>
+            <div class="footer__logos">
+                <a class="footer__logo" href="#"><img src="./images/twitter.svg" alt=""></a>
+                <a class="footer__logo" href="#"><img src="./images/instagram-logo.svg" alt=""></a>
+                <a class="footer__logo" href="#"><img src="./images/facebook.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="footer__types">
+            <div class="footer__links">
+                <h5 class="footer__header">Rooms</h5>
+                <a class="footer__link" href="#">Single Room</a>
+                <a class="footer__link" href="#">Double Room</a>
+                <a class="footer__link" href="#">Cabin</a>
+                <a class="footer__link" href="#">Custom Room</a>
+            </div>
+            <div class="footer__links">
+                <h5 class="footer__header">Reservation</h5>
+                <a class="footer__link" href="#">See the Steps</a>
+                <a class="footer__link" href="#">Best Time</a>
+            </div>
+            <div class="footer__links">
+                <h5 class="footer__header">Contact</h5>
+                <a class="footer__link" href="#">Our Number</a>
+                <a class="footer__link" href="#">Our Email</a>
+                <a class="footer__link" href="#">Our Location</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

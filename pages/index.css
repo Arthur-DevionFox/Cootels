@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/Inter/stylesheet.css);
 @import url(../fonts/Montserrat/montserrat.css);
+@import url(../blocks/body/body.css);
 
 /*header block*/
 @import url(../blocks/header/header.css);
@@ -21,17 +22,44 @@
 
 /*about-us section*/
 @import url(../blocks/main/about-us/about-us.css);
-@import url(../blocks/main/);
-@import url(../blocks/main/);
-@import url(../blocks/main/);
-@import url(../blocks/main/);
-@import url(../blocks/main/);
+@import url(../blocks/main/about-us/__cootage/about-us__cootage.css);
+@import url(../blocks/main/about-us/__information/about-us__information.css);
+@import url(../blocks/main/about-us/__header/about-us__header.css);
+@import url(../blocks/main/about-us/__main/about-us__main.css);
+@import url(../blocks/main/about-us/__learn-more/about-us__learn-more.css);
 
 /*benefit section*/
 @import url(../blocks/main/benefit/benefit.css);
+@import url(../blocks/main/benefit/__information/benefit__information.css);
+@import url(../blocks/main/benefit/__information/_one/benefit__information_one.css);
+@import url(../blocks/main/benefit/__information/_two/benefit__information_two.css);
+@import url(../blocks/main/benefit/__glasses/benefit__glasses.css);
+@import url(../blocks/main/benefit/__food/benefit__food.css);
+@import url(../blocks/main/benefit/__header/benefit__header.css);
+@import url(../blocks/main/benefit/__main/benefit__main.css);
 
 /*reservation section*/
 @import url(../blocks/main/reservation/reservation.css);
+@import url(../blocks/main/reservation/__choose/reservation__choose.css);
+@import url(../blocks/main/reservation/__picture/reservation__picture.css);
+@import url(../blocks/main/reservation/__header/reservation__header.css);
+@import url(../blocks/main/reservation/__main/reservation__main.css);
+@import url(../blocks/main/reservation/__explore/reservation__explore.css);
+@import url(../blocks/main/reservation/__cards/reservation__cards.css);
+@import url(../blocks/main/reservation/__card/reservation__card.css);
+@import url(../blocks/main/reservation/__card-header/reservation__card-header.css);
+@import url(../blocks/main/reservation/__card-main/reservation__card-main.css);
+@import url(../blocks/main/reservation/__card-link/reservation__card-link.css);
+@import url(../blocks/main/reservation/__arrow/reservation__arrow.css);
 
 /*footer*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__header/footer__header.css);
+@import url(../blocks/footer/__types/footer__types.css);
+@import url(../blocks/footer/__information/footer__information.css);
+@import url(../blocks/footer/__cootels/footer__cootels.css);
+@import url(../blocks/footer/__name/footer__name.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__logos/footer__logos.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__links/footer__links.css);

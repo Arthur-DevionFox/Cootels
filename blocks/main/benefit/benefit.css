@@ -1,0 +1,11 @@
+.benefit {
+    margin: 80px 226px 80px 120px;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 384px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas:
+        "start start end"
+        "middle ned ned";
+    gap: 32px 126px;
+}

@@ -1,7 +1,6 @@
-.about-us__learn-more {
-    margin: 32px 0 0;
-    padding: 0;
-    max-width: 156px;
+.reservation__explore {
+    max-width: 165px;
+    margin-top: 32px;
     width: 100%;
     height: 51px;
     background: rgba(14, 23, 52, 1);

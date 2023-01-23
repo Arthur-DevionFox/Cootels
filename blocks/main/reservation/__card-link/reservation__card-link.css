@@ -1,0 +1,12 @@
+.reservation__card-link {
+    display: flex;
+    margin: 32px 0 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #424F7B;
+    cursor: pointer;
+}
